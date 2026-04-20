@@ -9,7 +9,7 @@ var big = 1;
 var grn = 50;
 function setup() {
   let canvas = createCanvas(500, 500);
-  canvas.parent('sketch-container');
+  canvas.parent('sketch-container'); // this is what was altered from the original p5
   rndX = random(100, 300);
   rndY = random(100, 300);
 }
