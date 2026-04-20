@@ -1,4 +1,4 @@
-// ── Project One ───────────────────────────────────────
+// ── Project Two ───────────────────────────────────────
 // Replace this starter code with your own project!
 
 const runBtn = document.getElementById('runBtn');
@@ -12,7 +12,7 @@ runBtn.addEventListener('click', function () {
 
   // ── Your code starts here ──────────────────────────
 
-  const message = 'Hello from Project One!';
+  const message = 'Hello from Project Two!';
 
   // Render something in the demo area
   const heading = document.createElement('h2');
