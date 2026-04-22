@@ -1,7 +1,7 @@
 // ── Album Art ───────────────────────────────────────
 let color2; // creates the variable
 function setup() {
-  let canvas = createCanvas(500, 500);
+  let canvas = createCanvas(400, 400);
   canvas.parent('sketch-container');
   colorMode(HSB);
   color2 = random(2, 30); // randomizes the variable value

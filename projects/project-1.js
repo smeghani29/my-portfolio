@@ -1,6 +1,6 @@
 // ── Vehicle Animation ───────────────────────────────────────
 function setup() {
-  let canvas = createCanvas(500, 500);
+  let canvas = createCanvas(400, 400);
   canvas.parent('sketch-container');
 }
 
