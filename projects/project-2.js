@@ -1,4 +1,4 @@
-// ── Albumn Art ───────────────────────────────────────
+// ── Album Art ───────────────────────────────────────
 let color2; // creates the variable
 function setup() {
   let canvas = createCanvas(500, 500);
