@@ -11,7 +11,7 @@ var endHat, endHat2;
 var horseLane = 2;
 var endHatCollision, endHat2Collision; 
 var winSound, loseSound;
-var windowWidth, windowHeight
+var windowWidth, windowHeight;
 
 function setup() {
 	let canvas = createCanvas(600, 400);
