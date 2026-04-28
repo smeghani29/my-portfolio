@@ -11,9 +11,10 @@ var endHat, endHat2;
 var horseLane = 2;
 var endHatCollision, endHat2Collision; 
 var winSound, loseSound;
+var windowWidth, windowHeight
 
 function setup() {
-	let canvas = createCanvas(400, 400);
+	let canvas = createCanvas(600, 400);
     canvas.parent('sketch-container');
 	background(171, 156, 133);
 	horsey = windowHeight/3+(windowHeight/30);
@@ -30,6 +31,8 @@ function setup() {
 	finishx = windowWidth-150;
 	endHatCollision = false;
 	endHat2Collision = false;
+	windowWidth = 600;
+	windowHeight = 400;
 }
 
 // this preloads the images
