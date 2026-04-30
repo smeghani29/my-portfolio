@@ -18,12 +18,12 @@ body {
 
 /* ── Tokens ─────────────────────────────────────────── */
 :root {
-  --bg:        #0f0f0f;
-  --surface:   #1a1a1a;
-  --border:    #2e2e2e;
-  --accent:    #c8f04a;
-  --text:      #f0ede6;
-  --muted:     #7a7770;
+  --bg:        #230d3f;
+  --surface:   #290549;
+  --border:    #4b345f;
+  --accent:    #a9b2dd;
+  --text:      #9599b1;
+  --muted:     #76707a;
   --font-head: 'DM Serif Display', Georgia, serif;
   --font-body: 'DM Mono', 'Courier New', monospace;
   --radius:    6px;
