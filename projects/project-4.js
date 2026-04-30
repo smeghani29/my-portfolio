@@ -17,6 +17,8 @@ function setup() {
 	let canvas = createCanvas(600, 400);
     canvas.parent('sketch-container');
 	background(171, 156, 133);
+	windowWidth = 600;
+	windowHeight = 400;
 	horsey = windowHeight/3+(windowHeight/30);
 	horsex = 20;
 	hatx = windowWidth;
@@ -31,8 +33,6 @@ function setup() {
 	finishx = windowWidth-150;
 	endHatCollision = false;
 	endHat2Collision = false;
-	windowWidth = 600;
-	windowHeight = 400;
 }
 
 // this preloads the images
