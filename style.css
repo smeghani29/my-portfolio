@@ -18,9 +18,9 @@ body {
 
 /* ── Tokens ─────────────────────────────────────────── */
 :root {
-  --bg:        #0e011f;
-  --surface:   #0e0219;
-  --border:    #24192e;
+  --bg:        #33293f;
+  --surface:   #433a4b;
+  --border:    #473c52;
   --accent:    #a39bb4;
   --text:      #c1bacf;
   --muted:     #a094b4;
